@@ -14,17 +14,18 @@
   font-style: normal;
   display: flex;
   height: 100vh;
+  padding: 0.5rem;
+  background-color: #121212;
 }
 
 .side-bar {
-    background-color: red;
     width: 350px;
     border-radius: 1rem;   /* 1rem is equal to 16px */
-    background-color: yellow;
+    background-color: #121212;
+    margin-right: 0.5rem;
 }
 
 .main-content {
-    background-color: blue;
     flex: 1;
     border-radius: 1rem;   /* 1rem is equal to 16px */
     overflow: auto;
@@ -32,7 +33,6 @@
 }
 
 .music-player {
-    background-color: yellow;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -46,7 +46,7 @@ a {
 }
 
 .nav {
-    background-color: #121212;
+    /* background-color: #121212; */
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -75,3 +75,69 @@ a {
     padding: 8px;
 }
 
+.library {
+    /* background-color: #121212; */
+    border-radius: 1rem;
+     height: 100%;
+     margin-top: 0.5rem;
+     padding: 0.5rem 0.75rem;;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.library-option img {
+    height: 1rem;
+    width: 1.5rem;
+}
+
+.icons {
+    font-size: 1.25rem;
+    display: flex;
+    border-radius: 1rem;
+} 
+
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+
+.icons i:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.box {
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0 1.75rem 0;
+    padding: 0.5rem 1rem;
+}
+
+.box-p1 {
+    font-size: 1rem;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.box-p2 {
+    font-size: 0.85rem;
+    opacity: 0.9;
+    background-color: transparent;
+}
+
+.badge {
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    color: #000;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
