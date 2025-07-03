@@ -26,7 +26,6 @@ A responsive front-end clone of Spotify's web player interface, built using **HT
 
 - **HTML5** - Structure
 - **CSS3** - Styling and layout
-- **JavaScript** - Interactivity (basic)
 - **Localhost** - For development preview (`127.0.0.1`)
 
 ---
